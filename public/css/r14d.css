@@ -1,0 +1,67 @@
+.sidebar-about h1 {
+  font-family: 'Roboto Mono', monospace;
+}
+
+.sidebar-about a:hover {
+  text-decoration: none;
+}
+
+.sidebar-nav {
+  margin-bottom: 2rem;
+}
+
+.copyright {
+  text-align: center;
+}
+
+.theme-r14d .sidebar {
+  background-color: #1D1F21;
+}
+.theme-r14d .content a,
+.theme-r14d .related-posts li a:hover {
+  color: #7B0D1E;
+}
+
+/* 
+ * Logos designed by Dreamstale:
+ * http://www.dreamstale.com/free-download-72-vector-social-media-icons/
+ */
+
+.sidebar-social {
+  margin-bottom: 2rem;
+}
+
+.sidebar-social .social {
+  background-image: url(../img/spritesheet.png);
+  background-repeat: no-repeat;
+  display: block;
+  float: left;
+  margin-right: 17px;
+}
+
+.sidebar-social .social-twitter-dreamstale71 {
+  width: 48px;
+  height: 48px;
+  background-position: -366px -366px;
+}
+
+.sidebar-social .social-feed-dreamstale27 {
+  width: 48px;
+  height: 48px;
+  background-position: -418px -106px;
+}
+
+.sidebar-social .social-github2-dreamstale35 {
+  width: 48px;
+  height: 48px;
+  background-position: -366px -158px;
+}
+
+
+/* General */
+
+.group:after {
+	display: table;
+	content: "";
+	clear: both;
+}
