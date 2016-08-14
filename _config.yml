@@ -25,16 +25,24 @@ highlighter: rouge
 # Permalinks
 permalink:        pretty
 paginate: 5
-paginate_path: "page:num"
+# paginate_path: "page:num"
 
 # Setup
 title:            r14d
 tagline:          'A tagline'
 description:      'A description'
 url:              http://r14d.com
-baseurl:          /
+baseurl:          ""
 version: 0.0.1
 
 gems:
   - jekyll-paginate
   - jekyll-gist
+
+repository: r14d/r14d.github.io
+
+# Override site.github.url for local development
+# http://ben.balter.com/jekyll-style-guide/config/
+github:
+  url: http://localhost:4000
+
