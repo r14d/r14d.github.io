@@ -37,6 +37,13 @@
   display: block;
   float: left;
   margin-right: 17px;
+  opacity: 0.8;
+  transition: opacity 0.5s;
+}
+
+.sidebar-social a:hover {
+  opacity: 1;
+  transition: opacity 0.5s;
 }
 
 .sidebar-social .social-twitter-dreamstale71 {
